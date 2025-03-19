@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Lock, User } from 'lucide-react';
-import { 
+import {
   Container,
   Box,
   Typography,
@@ -32,7 +32,7 @@ function Login() {
         <Paper elevation={8} className="p-8 flex flex-col items-center rounded-2xl">
           <Box className="mb-6 text-primary">
             <span className="text-6xl">
-              <img 
+              <img
               src="https://markts.com.br/wp-content/uploads/2024/09/Logo.png" 
               alt="Markts Logo"
               aria-label='Markts Logo' 
@@ -40,7 +40,7 @@ function Login() {
               />
             </span>
           </Box>
-          
+
           <Typography component="h1" variant="h5" className="mb-2">
             Lista de Mercado Markts
           </Typography>
